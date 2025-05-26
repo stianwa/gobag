@@ -29,8 +29,8 @@ import (
 )
 
 func main() {
-       ds := gobag.Deduplicate([]string{'foo','bar','zot','bar'})
-       fmt.Printf("%s\n", strings.Join(ds,", ")
+        ds := gobag.Deduplicate([]string{"foo","bar","zot","bar"})                                  
+        fmt.Printf("%s\n", strings.Join(ds,", "))
 }
 ```
 
